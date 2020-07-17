@@ -19,3 +19,26 @@ return totalWood
 }
 var woodNeed = woodCalculator(5,3,2);
 console.log(woodNeed);
+
+// brickCalculator
+
+
+
+
+
+
+// tinyFriend
+
+function tinyFriend(friend){
+    var smallName = Infinity;
+    var tinyName;
+    for (var i=0; i<friend.length; i++) 
+    {
+        if (friend[i].length < smallName)
+    {
+        smallName = friend[i].length;
+        tinyFriend = friend[i];
+    }
+}
+ return tinyName;
+}
